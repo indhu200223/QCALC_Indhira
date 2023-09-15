@@ -1,4 +1,4 @@
-package com.crio.qcalc;
+package qcalc.com.crio;
 
 public class StandardCalculator {
 
