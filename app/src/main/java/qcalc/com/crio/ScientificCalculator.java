@@ -1,5 +1,5 @@
  package qcalc.com.crio;
-public class ScientificCalculator {
+public class ScientificCalculator{
 
     public double squareOf(double num) {
         return num * num;

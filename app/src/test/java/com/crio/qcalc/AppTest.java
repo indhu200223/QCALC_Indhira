@@ -5,7 +5,6 @@
 package com.crio.qcalc;
 
 import org.junit.jupiter.api.Test;
-import qcalc.com.crio.App;
 import static org.junit.jupiter.api.Assertions.*;
 
 class AppTest {
