@@ -1,35 +1,30 @@
-
 package com.crio.qcalc;
-
 
 public class StandardCalculator {
 
-
     public static void getVersion(){
-
         System.out.println("Standard Calculator 1.0");
-
     }
 private int result;
 
+public int add(int num1, int num2){
+    int res = num1 + num2;
+    setResult(res);
+    return res;
+}
 
-public void add(int num1,int num2){
-    int res = num1+num2;
+public void subtract(int num1, int num2){
+    int res = num1 - num2;
     setResult(res);
 }
 
-public void sub(int num1,int num2){
-    int res = num1-num2;
+public void multiply(int num1, int num2){
+    int res = num1 * num2;
     setResult(res);
 }
 
-public void mul(int num1,int num2){
-    int res = num1*num2;
-    setResult(res);
-}
-
-public void div(int num1,int num2){
-    int res = num1/num2;
+public void divide(int num1, int num2){
+    int res = num1 / num2;
     setResult(res);
 }
 
@@ -38,11 +33,15 @@ public int getResult(){
 }
 
 private void setResult(int value){
-    this.result = result;
+    this.result = value;
 }
 
 public void clearResult(){
     result =0;
+}
+
+public void printResult(){
+    System.out.println("Standard Calculator Result:" + getResult());
 }
 
 }
