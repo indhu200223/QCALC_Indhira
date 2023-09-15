@@ -5,9 +5,10 @@
 package com.crio.qcalc;
 
 public class App{
+
 public static void main(String[] args) {
     
-    System.out.println(new App().getGreeting());;
+    System.out.println(((App) new App()).getGreeting());;
     
     ScientificCalculator calc = new ScientificCalculator();
 
@@ -16,9 +17,7 @@ public static void main(String[] args) {
     System.out.println("cube =" + result);
 
 }
-
-public String getGreeting() {
-    return null;
+public String getGreeting(){
+    return "Hello World!";
 }
-
 }

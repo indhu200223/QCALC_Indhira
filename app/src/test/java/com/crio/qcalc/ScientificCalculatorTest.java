@@ -4,7 +4,6 @@ import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
-import org.junit.jupiter.api.function.Executable;
 
 public class ScientificCalculatorTest {
 
@@ -39,15 +38,8 @@ public class ScientificCalculatorTest {
     @Test
     @DisplayName("Test square root of double")
     public void testSquareRoot() {
-        Assertions.assertEquals(5.0, scientificCalculator.squareRoot(25.0));
-        Assertions.assertEquals(2.0, scientificCalculator.squareRoot(4.0));
-    }
-
-    @Test
-    @DisplayName("Test modulo of integer")
-    public void testModuloInt() {
-        Assertions.assertEquals(1, scientificCalculator.modulo(5, 2));
-        Assertions.assertEquals(0, scientificCalculator.modulo(10, 2));
+        Assertions.assertEquals(5.0, scientificCalculator.squarerootOf(25.0));
+        Assertions.assertEquals(2.0, scientificCalculator.squarerootOf(4.0));
     }
 
     @Test

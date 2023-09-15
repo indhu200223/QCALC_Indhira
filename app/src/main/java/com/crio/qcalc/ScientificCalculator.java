@@ -24,4 +24,8 @@ public class ScientificCalculator{
          return dividend % divisor;
      }
 
+    public Double squarerootOf(double d) {
+        return Math. sqrt(d) ;
+    }
+
 }
