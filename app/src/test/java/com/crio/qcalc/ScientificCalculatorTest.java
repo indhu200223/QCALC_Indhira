@@ -1,5 +1,7 @@
 package com.crio.qcalc;
 
+import com.crio.qcalc.ScientificCalculator;
+
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
