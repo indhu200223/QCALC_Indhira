@@ -17,7 +17,7 @@ public static void main(String[] args) {
 
 }
 
-private String getGreeting() {
+public String getGreeting() {
     return null;
 }
 

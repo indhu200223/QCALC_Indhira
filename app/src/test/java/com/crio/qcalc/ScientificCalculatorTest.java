@@ -1,11 +1,11 @@
 package com.crio.qcalc;
 
+import qcalc.com.crio.ScientificCalculator;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.function.Executable;
-import com.crio.qcalc.ScientificCalculator;
 
 public class ScientificCalculatorTest {
 
